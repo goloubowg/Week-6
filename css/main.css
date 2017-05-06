@@ -1,0 +1,48 @@
+.example{
+  color: blue;
+  font-size: 20px;
+}
+.change {
+  color: green;
+  font-size: 25px;
+}
+.hover{
+  height: 200px;
+  width: 100px;
+  background-color: yellow;
+
+}
+.change1{
+   background-color:  blue;
+  height: 200px;
+  width: 100px;
+}
+.yell{
+  height: 400px;
+  width: 400px;
+  background-color: violet;
+}
+
+p{
+  font-family: fantasy;
+}
+.p1{
+  font-family:serif;
+}
+
+
+@media (max-width: 600px) {
+
+  div {
+    width: 80%;
+  }
+
+}
+
+@media (min-width: 600px) {
+
+  div {
+    width: 80%;
+  }
+
+}
